@@ -8,8 +8,28 @@ const Stock = mongoose.models.Stock || mongoose.model('Stock', new mongoose.Sche
         unique: true,
         uppercase: true
     },
-    companyName: {
+    name: {
         type: String,
+        required: true
+    },
+    currentPrice: {
+        type: Number,
+        required: true
+    },
+    priceChange: {
+        type: Number,
+        required: true
+    },
+    priceChangePercent: {
+        type: Number,
+        required: true
+    },
+    isUp: {
+        type: Boolean,
+        required: true
+    },
+    volume: {
+        type: Number,
         required: true
     },
     sector: {
@@ -20,9 +40,9 @@ const Stock = mongoose.models.Stock || mongoose.model('Stock', new mongoose.Sche
         type: String,
         required: true
     },
-    currentPrice: {
-        type: Number,
-        required: true
+    description: {
+        type: String,
+        default: ''
     },
     riskMetrics: {
         volatility: Number,
@@ -31,25 +51,16 @@ const Stock = mongoose.models.Stock || mongoose.model('Stock', new mongoose.Sche
         valueAtRisk: Number,
         maxDrawdown: Number
     },
-    technicalIndicators: {
-        rsi: Number,
-        macd: {
-            value: Number,
-            signal: Number,
-            histogram: Number
-        },
-        movingAverages: {
-            sma50: Number,
-            sma200: Number
-        }
-    },
     fundamentalData: {
         marketCap: Number,
         peRatio: Number,
-        dividendYield: Number,
-        debtToEquity: Number,
-        profitMargin: Number,
-        revenueGrowth: Number
+        eps: Number,
+        dividendYield: Number
+    },
+    historicalData: {
+        prices: [Number],
+        volumes: [Number],
+        timestamps: [Number]
     },
     lastUpdated: {
         type: Date,

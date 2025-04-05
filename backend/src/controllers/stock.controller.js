@@ -147,56 +147,8 @@ class StockController {
       console.log('Searching for stocks in sectors:', sectors);
       console.log('And industries:', industries);
 
-      // Get popular stocks for each sector
-      const popularStocks = await this.getPopularStocks(sectors);
-      console.log(`Found ${popularStocks.length} popular stocks to analyze`);
-      
-      // Fetch detailed data for each stock
-      const recommendations = [];
-      let scrapingSuccessCount = 0;
-      let scrapingErrorCount = 0;
-      
-      // First, try to get stocks from web scraping
-      for (const stock of popularStocks) {
-        try {
-          console.log(`Fetching details for stock: ${stock.symbol}`);
-          const stockData = await stockScraperService.fetchStockData(stock.symbol);
-          
-          // Check if stock matches our sectors or industries and price range
-          if ((sectors.includes(stockData.sector) || 
-              industries.some(ind => stockData.industry.toLowerCase().includes(ind.toLowerCase()))) &&
-              StockController.isWithinPriceRange(stockData.currentPrice, minPrice, maxPrice)) {
-            
-            console.log(`Found matching stock: ${stock.symbol}`);
-            const score = StockController.calculateRecommendationScore(stockData, sectors, industries);
-            const matchedInterests = StockController.getMatchedInterests(stockData, interests);
-            
-            recommendations.push({
-              ...stockData,
-              recommendationScore: score,
-              matchedInterests,
-              priceChange: stock.priceChange || 0,
-              volume: stock.volume || 0,
-              source: 'web-scraping'
-            });
-          }
-          scrapingSuccessCount++;
-        } catch (error) {
-          scrapingErrorCount++;
-          console.error(`Error fetching data for ${stock.symbol}:`, error.message);
-          if (error.code === 'ECONNRESET' || error.message.includes('Header overflow')) {
-            console.log(`Connection error for ${stock.symbol}, will retry with increased timeout`);
-            // Could implement retry logic here if needed
-          }
-          continue;
-        }
-      }
-
-      console.log(`Scraping results: ${scrapingSuccessCount} successful, ${scrapingErrorCount} failed`);
-      console.log(`Found ${recommendations.length} stocks from web scraping`);
-
-      // Always try to get additional stocks from the database, regardless of whether we found stocks from scraping
-      console.log('Fetching additional stocks from database...');
+      // Get stocks from the database
+      console.log('Fetching stocks from database...');
       
       // Try to find stocks in the database that match the sectors or industries
       let dbStocks = [];
@@ -252,33 +204,35 @@ class StockController {
       }
 
       console.log(`Found ${dbStocks.length} stocks in database`);
-
-      // Add database stocks to recommendations, avoiding duplicates
-      const existingSymbols = new Set(recommendations.map(stock => stock.symbol));
+      
+      // Process database stocks
+      const recommendations = [];
       let dbStocksAdded = 0;
       
       for (const stock of dbStocks) {
-        if (!existingSymbols.has(stock.symbol) && 
-            StockController.isWithinPriceRange(stock.currentPrice, minPrice, maxPrice)) {
+        if (StockController.isWithinPriceRange(stock.currentPrice, minPrice, maxPrice)) {
           const score = StockController.calculateRecommendationScore(stock, sectors, industries);
           const matchedInterests = StockController.getMatchedInterests(stock, interests);
           
-          recommendations.push({
-            ...stock.toObject(),
+          // Create a simplified stock object with only the essential information
+          const simplifiedStock = {
+            name: stock.name || stock.companyName || 'Unknown',
+            symbol: stock.symbol,
+            price: stock.currentPrice,
             recommendationScore: score,
-            matchedInterests,
-            source: 'database'
-          });
+            industry: stock.industry || 'Unknown',
+            sector: stock.sector || 'Unknown',
+            matchedInterests: matchedInterests
+          };
           
-          existingSymbols.add(stock.symbol);
+          recommendations.push(simplifiedStock);
           dbStocksAdded++;
         }
       }
       
       console.log(`Added ${dbStocksAdded} stocks from database to recommendations`);
-      console.log(`Total recommendations: ${recommendations.length} (${recommendations.length - dbStocksAdded} from web scraping, ${dbStocksAdded} from database)`);
       
-      // If still no recommendations, return a helpful message
+      // If no recommendations found, return a helpful message
       if (recommendations.length === 0) {
         return res.status(404).json({
           error: 'No stock recommendations found for the given interests and price range.',
@@ -297,16 +251,20 @@ class StockController {
         .sort((a, b) => b.recommendationScore - a.recommendationScore)
         .slice(0, 20);
 
-      console.log(`Returning ${sortedRecommendations.length} recommendations`);
+      console.log(`Returning ${sortedRecommendations.length} recommendations from database`);
 
+      // Return a clean, organized response
       res.json({
-        sectors,
-        industries,
-        recommendations: sortedRecommendations,
+        success: true,
         totalFound: recommendations.length,
-        priceRange: {
-          min: minPrice,
-          max: maxPrice
+        recommendations: sortedRecommendations,
+        filters: {
+          sectors,
+          industries,
+          priceRange: {
+            min: minPrice,
+            max: maxPrice
+          }
         }
       });
     } catch (error) {
@@ -320,8 +278,6 @@ class StockController {
 
   async getPopularStocks(sectors) {
     try {
-      // This is a simplified approach - in a real app, you'd want to scrape
-      // a list of popular stocks from a financial website
       const popularStocksBySector = {
         'Technology': [
           { symbol: 'AAPL', priceChange: 0, volume: 0 },
@@ -433,46 +389,103 @@ class StockController {
   static calculateRecommendationScore(stock, sectors, industries) {
     let score = 0;
     
-    // Base score for sector match
+    // Base score for sector match (20 points)
     if (sectors.includes(stock.sector)) {
-      score += 30;
-    }
-    
-    // Additional score for industry match
-    const industryMatch = industries.find(ind => 
-      stock.industry.toLowerCase().includes(ind.toLowerCase())
-    );
-    if (industryMatch) {
       score += 20;
     }
     
-    // Technical indicators score
-    if (stock.technicalIndicators) {
-      // RSI score (0-100, 30-70 is healthy)
-      const rsi = stock.technicalIndicators.rsi;
-      if (rsi >= 30 && rsi <= 70) score += 10;
-      
-      // MACD score
-      if (stock.technicalIndicators.macd.histogram > 0) score += 10;
-    }
-    
-    // Fundamental data score
-    if (stock.fundamentalData) {
-      // PE ratio score (lower is better, assuming < 30 is good)
-      const peRatio = stock.fundamentalData.peRatio;
-      if (peRatio > 0 && peRatio < 30) score += 15;
-      
-      // Market cap score (larger companies tend to be more stable)
-      const marketCap = stock.fundamentalData.marketCap;
-      if (marketCap > 10000000000) score += 15; // $10B+ market cap
-    }
-    
-    // Risk metrics score
-    if (stock.riskMetrics) {
-      // Lower volatility is better
+    // Volatility score (30 points) - More granular tiers
+    if (stock.riskMetrics && stock.riskMetrics.volatility) {
       const volatility = stock.riskMetrics.volatility;
-      if (volatility < 0.3) score += 10; // Less than 30% volatility
+      // Lower volatility is better - scale from 0 to 30 points with more granular tiers
+      if (volatility <= 0.05) {
+        score += 30; // Extremely low volatility
+      } else if (volatility <= 0.1) {
+        score += 28; // Very low volatility
+      } else if (volatility <= 0.15) {
+        score += 25; // Low volatility
+      } else if (volatility <= 0.2) {
+        score += 22; // Moderate-low volatility
+      } else if (volatility <= 0.25) {
+        score += 18; // Moderate volatility
+      } else if (volatility <= 0.3) {
+        score += 15; // Moderate-high volatility
+      } else if (volatility <= 0.35) {
+        score += 12; // High volatility
+      } else if (volatility <= 0.4) {
+        score += 9; // Very high volatility
+      } else if (volatility <= 0.5) {
+        score += 6; // Extremely high volatility
+      } else {
+        score += 3; // Ultra high volatility
+      }
     }
+    
+    // MaxDrawdown score (30 points) - More granular tiers
+    if (stock.riskMetrics && stock.riskMetrics.maxDrawdown) {
+      const maxDrawdown = stock.riskMetrics.maxDrawdown;
+      // Lower maxDrawdown is better - scale from 0 to 30 points with more granular tiers
+      if (maxDrawdown <= 0.05) {
+        score += 30; // Extremely low drawdown
+      } else if (maxDrawdown <= 0.1) {
+        score += 28; // Very low drawdown
+      } else if (maxDrawdown <= 0.15) {
+        score += 25; // Low drawdown
+      } else if (maxDrawdown <= 0.2) {
+        score += 22; // Moderate-low drawdown
+      } else if (maxDrawdown <= 0.25) {
+        score += 18; // Moderate drawdown
+      } else if (maxDrawdown <= 0.3) {
+        score += 15; // Moderate-high drawdown
+      } else if (maxDrawdown <= 0.35) {
+        score += 12; // High drawdown
+      } else if (maxDrawdown <= 0.4) {
+        score += 9; // Very high drawdown
+      } else if (maxDrawdown <= 0.5) {
+        score += 6; // Extremely high drawdown
+      } else {
+        score += 3; // Ultra high drawdown
+      }
+    }
+    
+    // Volume score (20 points) - More granular tiers
+    if (stock.volume) {
+      const volume = stock.volume;
+      // Higher volume is better - scale from 0 to 20 points with more granular tiers
+      // Using logarithmic scale to handle large volume differences
+      const logVolume = Math.log10(volume);
+      
+      if (logVolume >= 9) { // 1B+ shares
+        score += 20; // Ultra high volume
+      } else if (logVolume >= 8.5) { // 500M+ shares
+        score += 19; // Extremely high volume
+      } else if (logVolume >= 8) { // 100M+ shares
+        score += 18; // Very high volume
+      } else if (logVolume >= 7.5) { // 50M+ shares
+        score += 17; // High volume
+      } else if (logVolume >= 7) { // 10M+ shares
+        score += 15; // Moderate-high volume
+      } else if (logVolume >= 6.5) { // 5M+ shares
+        score += 13; // Moderate volume
+      } else if (logVolume >= 6) { // 1M+ shares
+        score += 11; // Moderate-low volume
+      } else if (logVolume >= 5.5) { // 500K+ shares
+        score += 9; // Low volume
+      } else if (logVolume >= 5) { // 100K+ shares
+        score += 7; // Very low volume
+      } else if (logVolume >= 4) { // 10K+ shares
+        score += 5; // Extremely low volume
+      } else if (logVolume >= 3) { // 1K+ shares
+        score += 3; // Ultra low volume
+      } else {
+        score += 1; // Minimal volume
+      }
+    }
+    
+    // Add a small random factor (0-5 points) to create more differentiation
+    // This ensures that even stocks with identical metrics will have slightly different scores
+    const randomFactor = Math.floor(Math.random() * 6);
+    score += randomFactor;
     
     return score;
   }

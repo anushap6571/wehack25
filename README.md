@@ -9,3 +9,5 @@ npm install puppeteer@21.3.8 puppeteer-extra@3.3.4 puppeteer-extra-plugin-stealt
 
 
 ```
+
+to start server do node server.JS

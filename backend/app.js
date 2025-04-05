@@ -10,6 +10,10 @@ dotenv.config();
 // Initialize express app
 const app = express();
 
+// Define PORT early
+const PORT = process.env.PORT || 3000;
+const chatbot = require('./src/controllers/chatbot');
+
 // Configure logger
 const logger = winston.createLogger({
   level: 'info',
@@ -30,6 +34,13 @@ if (process.env.NODE_ENV !== 'production') {
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// CORS middleware
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
+});
 
 // Database connection with retry logic
 const connectWithRetry = async () => {
@@ -76,9 +87,26 @@ mongoose.connection.on('disconnected', () => {
 });
 
 // Routes
-app.use('/api/auth', require('./src/routes/auth.routes'));
-app.use('/api/stocks', require('./src/routes/stock.routes'));
-app.use('/api/recommendations', require('./src/routes/recommendation.routes'));
+app.use('/api/auth', require('./src/routes/auth.routes.js'));
+app.use('/api/stocks', require('./src/routes/stock.routes.js'));
+app.use('/api/recommendations', require('./src/routes/recommendation.routes.js'));
+
+// Chatbot endpoint to handle general finance-related questions
+app.post('/api/chat', async (req, res) => {
+    try {
+        const { message } = req.body; // Extract the message from the request body
+        if (!message) {
+            return res.status(400).json({ error: 'Message is required' }); // Return an error if no message is provided
+        }
+        
+        // Get the response from the chatbot
+        const response = await chatbot.getResponse(message); // Call the chatbot's getResponse method
+        res.json({ response }); // Return the response as JSON
+    } catch (error) {
+        console.error('Chat error:', error);
+        res.status(500).json({ error: 'Internal server error' }); // Return an error if something goes wrong
+    }
+});
 
 // Error handling middleware
 app.use((err, req, res, next) => {
@@ -86,7 +114,7 @@ app.use((err, req, res, next) => {
   res.status(500).send('Something broke!');
 });
 
-const PORT = process.env.PORT || 3000;
+// Start the server
 app.listen(PORT, () => {
   logger.info(`Server is running on http://localhost:${PORT}`);
 });

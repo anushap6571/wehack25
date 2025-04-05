@@ -3,10 +3,22 @@ const sampleStocks = [
   // Food sector
   {
     symbol: 'MCD',
-    companyName: 'McDonald\'s Corporation',
+    name: 'McDonald\'s Corporation',
     sector: 'Consumer Staples',
     industry: 'Restaurants',
     currentPrice: 290.50,
+    priceChange: 2.75,
+    priceChangePercent: 0.96,
+    isUp: true,
+    volume: 3500000,
+    marketCap: 210000000000,
+    description: 'McDonald\'s Corporation operates and franchises McDonald\'s restaurants in the United States and internationally.',
+    fundamentalData: {
+      marketCap: 210000000000,
+      peRatio: 25.3,
+      eps: 11.48,
+      dividendYield: 0.022
+    },
     riskMetrics: {
       volatility: 0.18,
       beta: 0.7,
@@ -14,31 +26,31 @@ const sampleStocks = [
       valueAtRisk: 0.05,
       maxDrawdown: 0.25
     },
-    technicalIndicators: {
-      rsi: 55,
-      macd: {
-        value: 2.5,
-        signal: 1.8,
-        histogram: 0.7
-      },
-      movingAverages: {
-        sma50: 285.30,
-        sma200: 275.80
-      }
+    historicalData: {
+      prices: [285.30, 287.20, 289.10, 290.50],
+      volumes: [3200000, 3400000, 3300000, 3500000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 210000000000,
-      peRatio: 25.3,
-      dividendYield: 0.022,
-      debtToEquity: 1.8
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'KO',
-    companyName: 'The Coca-Cola Company',
+    name: 'The Coca-Cola Company',
     sector: 'Consumer Staples',
     industry: 'Beverages',
     currentPrice: 60.25,
+    priceChange: -0.35,
+    priceChangePercent: -0.58,
+    isUp: false,
+    volume: 4200000,
+    marketCap: 260000000000,
+    description: 'The Coca-Cola Company is a beverage company that manufactures and distributes various nonalcoholic beverages worldwide.',
+    fundamentalData: {
+      marketCap: 260000000000,
+      peRatio: 22.8,
+      eps: 2.64,
+      dividendYield: 0.031
+    },
     riskMetrics: {
       volatility: 0.15,
       beta: 0.6,
@@ -46,33 +58,33 @@ const sampleStocks = [
       valueAtRisk: 0.04,
       maxDrawdown: 0.20
     },
-    technicalIndicators: {
-      rsi: 58,
-      macd: {
-        value: 1.8,
-        signal: 1.5,
-        histogram: 0.3
-      },
-      movingAverages: {
-        sma50: 59.80,
-        sma200: 58.50
-      }
+    historicalData: {
+      prices: [59.80, 60.10, 60.60, 60.25],
+      volumes: [4100000, 4300000, 4200000, 4200000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 260000000000,
-      peRatio: 22.8,
-      dividendYield: 0.031,
-      debtToEquity: 1.5
-    }
+    lastUpdated: new Date()
   },
   
   // Technology sector
   {
     symbol: 'AAPL',
-    companyName: 'Apple Inc.',
+    name: 'Apple Inc.',
     sector: 'Technology',
     industry: 'Consumer Electronics',
     currentPrice: 175.84,
+    priceChange: 3.25,
+    priceChangePercent: 1.88,
+    isUp: true,
+    volume: 78000000,
+    marketCap: 2750000000000,
+    description: 'Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide.',
+    fundamentalData: {
+      marketCap: 2750000000000,
+      peRatio: 28.5,
+      eps: 6.17,
+      dividendYield: 0.005
+    },
     riskMetrics: {
       volatility: 0.25,
       beta: 1.2,
@@ -80,33 +92,31 @@ const sampleStocks = [
       valueAtRisk: 0.15,
       maxDrawdown: 0.3
     },
-    technicalIndicators: {
-      rsi: 65,
-      macd: {
-        value: 2.5,
-        signal: 1.8,
-        histogram: 0.7
-      },
-      movingAverages: {
-        sma50: 170.2,
-        sma200: 165.8
-      }
+    historicalData: {
+      prices: [170.20, 172.50, 174.30, 175.84],
+      volumes: [75000000, 76000000, 77000000, 78000000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 2750000000000,
-      peRatio: 28.5,
-      dividendYield: 0.5,
-      debtToEquity: 1.8,
-      profitMargin: 0.25,
-      revenueGrowth: 0.15
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'MSFT',
-    companyName: 'Microsoft Corporation',
+    name: 'Microsoft Corporation',
     sector: 'Technology',
     industry: 'Software',
     currentPrice: 338.11,
+    priceChange: 5.75,
+    priceChangePercent: 1.73,
+    isUp: true,
+    volume: 22000000,
+    marketCap: 2510000000000,
+    description: 'Microsoft Corporation develops, licenses, and supports computer software, consumer electronics, personal computers, and related services.',
+    fundamentalData: {
+      marketCap: 2510000000000,
+      peRatio: 32.1,
+      eps: 10.53,
+      dividendYield: 0.008
+    },
     riskMetrics: {
       volatility: 0.22,
       beta: 0.9,
@@ -114,35 +124,33 @@ const sampleStocks = [
       valueAtRisk: 0.12,
       maxDrawdown: 0.25
     },
-    technicalIndicators: {
-      rsi: 58,
-      macd: {
-        value: 3.2,
-        signal: 2.1,
-        histogram: 1.1
-      },
-      movingAverages: {
-        sma50: 335.5,
-        sma200: 320.2
-      }
+    historicalData: {
+      prices: [335.50, 336.80, 337.50, 338.11],
+      volumes: [21000000, 21500000, 21800000, 22000000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 2510000000000,
-      peRatio: 32.1,
-      dividendYield: 0.8,
-      debtToEquity: 0.3,
-      profitMargin: 0.35,
-      revenueGrowth: 0.18
-    }
+    lastUpdated: new Date()
   },
   
   // Clothes sector
   {
     symbol: 'NKE',
-    companyName: 'Nike, Inc.',
+    name: 'Nike, Inc.',
     sector: 'Consumer Cyclical',
     industry: 'Apparel Manufacturing',
     currentPrice: 110.75,
+    priceChange: -1.25,
+    priceChangePercent: -1.12,
+    isUp: false,
+    volume: 5800000,
+    marketCap: 170000000000,
+    description: 'Nike, Inc. designs, develops, markets, and sells athletic footwear, apparel, equipment, and accessories worldwide.',
+    fundamentalData: {
+      marketCap: 170000000000,
+      peRatio: 24.6,
+      eps: 4.50,
+      dividendYield: 0.012
+    },
     riskMetrics: {
       volatility: 0.28,
       beta: 1.1,
@@ -150,33 +158,33 @@ const sampleStocks = [
       valueAtRisk: 0.08,
       maxDrawdown: 0.35
     },
-    technicalIndicators: {
-      rsi: 48,
-      macd: {
-        value: -1.2,
-        signal: -0.8,
-        histogram: -0.4
-      },
-      movingAverages: {
-        sma50: 112.30,
-        sma200: 108.50
-      }
+    historicalData: {
+      prices: [112.30, 111.80, 111.20, 110.75],
+      volumes: [5500000, 5600000, 5700000, 5800000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 170000000000,
-      peRatio: 24.6,
-      dividendYield: 0.012,
-      debtToEquity: 0.9
-    }
+    lastUpdated: new Date()
   },
   
   // Travel sector
   {
     symbol: 'AAL',
-    companyName: 'American Airlines Group Inc.',
+    name: 'American Airlines Group Inc.',
     sector: 'Industrials',
     industry: 'Airlines',
     currentPrice: 15.80,
+    priceChange: -0.45,
+    priceChangePercent: -2.77,
+    isUp: false,
+    volume: 12500000,
+    marketCap: 10000000000,
+    description: 'American Airlines Group Inc. operates as a network air carrier that provides scheduled air transportation services for passengers and cargo.',
+    fundamentalData: {
+      marketCap: 10000000000,
+      peRatio: 12.5,
+      eps: 1.26,
+      dividendYield: 0
+    },
     riskMetrics: {
       volatility: 0.45,
       beta: 1.8,
@@ -184,33 +192,33 @@ const sampleStocks = [
       valueAtRisk: 0.12,
       maxDrawdown: 0.60
     },
-    technicalIndicators: {
-      rsi: 42,
-      macd: {
-        value: -0.8,
-        signal: -0.5,
-        histogram: -0.3
-      },
-      movingAverages: {
-        sma50: 16.20,
-        sma200: 17.50
-      }
+    historicalData: {
+      prices: [16.20, 16.10, 15.95, 15.80],
+      volumes: [12000000, 12200000, 12300000, 12500000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 10000000000,
-      peRatio: 12.5,
-      dividendYield: 0,
-      debtToEquity: 3.2
-    }
+    lastUpdated: new Date()
   },
   
   // Sports sector
   {
     symbol: 'DIS',
-    companyName: 'The Walt Disney Company',
+    name: 'The Walt Disney Company',
     sector: 'Communication Services',
     industry: 'Entertainment',
     currentPrice: 95.50,
+    priceChange: -1.25,
+    priceChangePercent: -1.29,
+    isUp: false,
+    volume: 8500000,
+    marketCap: 175000000000,
+    description: 'The Walt Disney Company, together with its subsidiaries, operates as an entertainment company worldwide.',
+    fundamentalData: {
+      marketCap: 175000000000,
+      peRatio: 18.2,
+      eps: 5.25,
+      dividendYield: 0.016
+    },
     riskMetrics: {
       volatility: 0.30,
       beta: 1.3,
@@ -218,31 +226,31 @@ const sampleStocks = [
       valueAtRisk: 0.09,
       maxDrawdown: 0.40
     },
-    technicalIndicators: {
-      rsi: 45,
-      macd: {
-        value: -2.2,
-        signal: -1.5,
-        histogram: -0.7
-      },
-      movingAverages: {
-        sma50: 98.30,
-        sma200: 102.50
-      }
+    historicalData: {
+      prices: [98.30, 97.20, 96.50, 95.50],
+      volumes: [8200000, 8300000, 8400000, 8500000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 175000000000,
-      peRatio: 18.2,
-      dividendYield: 0.016,
-      debtToEquity: 0.7
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'AMZN',
-    companyName: 'Amazon.com Inc.',
+    name: 'Amazon.com Inc.',
     sector: 'Consumer Cyclical',
     industry: 'Internet Retail',
     currentPrice: 178.75,
+    priceChange: -2.50,
+    priceChangePercent: -1.38,
+    isUp: false,
+    volume: 45000000,
+    marketCap: 1840000000000,
+    description: 'Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions in North America and internationally.',
+    fundamentalData: {
+      marketCap: 1840000000000,
+      peRatio: 62.3,
+      eps: 2.87,
+      dividendYield: 0
+    },
     riskMetrics: {
       volatility: 0.28,
       beta: 1.1,
@@ -250,33 +258,31 @@ const sampleStocks = [
       valueAtRisk: 0.18,
       maxDrawdown: 0.35
     },
-    technicalIndicators: {
-      rsi: 45,
-      macd: {
-        value: -1.2,
-        signal: -0.8,
-        histogram: -0.4
-      },
-      movingAverages: {
-        sma50: 180.5,
-        sma200: 175.2
-      }
+    historicalData: {
+      prices: [180.50, 179.80, 179.20, 178.75],
+      volumes: [44000000, 44500000, 44800000, 45000000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 1840000000000,
-      peRatio: 62.3,
-      dividendYield: 0,
-      debtToEquity: 1.2,
-      profitMargin: 0.05,
-      revenueGrowth: 0.12
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'GOOGL',
-    companyName: 'Alphabet Inc.',
+    name: 'Alphabet Inc.',
     sector: 'Communication Services',
     industry: 'Internet Content & Information',
     currentPrice: 142.65,
+    priceChange: 1.85,
+    priceChangePercent: 1.31,
+    isUp: true,
+    volume: 25000000,
+    marketCap: 1790000000000,
+    description: 'Alphabet Inc. provides various products and platforms, including search, advertising, commerce, and cloud computing.',
+    fundamentalData: {
+      marketCap: 1790000000000,
+      peRatio: 25.8,
+      eps: 5.53,
+      dividendYield: 0
+    },
     riskMetrics: {
       volatility: 0.24,
       beta: 1.05,
@@ -284,33 +290,31 @@ const sampleStocks = [
       valueAtRisk: 0.14,
       maxDrawdown: 0.28
     },
-    technicalIndicators: {
-      rsi: 52,
-      macd: {
-        value: 1.8,
-        signal: 1.5,
-        histogram: 0.3
-      },
-      movingAverages: {
-        sma50: 140.2,
-        sma200: 135.8
-      }
+    historicalData: {
+      prices: [140.20, 141.30, 142.10, 142.65],
+      volumes: [24000000, 24500000, 24800000, 25000000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 1790000000000,
-      peRatio: 25.8,
-      dividendYield: 0,
-      debtToEquity: 0.05,
-      profitMargin: 0.28,
-      revenueGrowth: 0.15
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'META',
-    companyName: 'Meta Platforms Inc.',
+    name: 'Meta Platforms Inc.',
     sector: 'Communication Services',
     industry: 'Internet Content & Information',
     currentPrice: 474.99,
+    priceChange: 8.75,
+    priceChangePercent: 1.88,
+    isUp: true,
+    volume: 15000000,
+    marketCap: 1210000000000,
+    description: 'Meta Platforms, Inc. develops products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality headsets, and in-home devices worldwide.',
+    fundamentalData: {
+      marketCap: 1210000000000,
+      peRatio: 32.5,
+      eps: 14.62,
+      dividendYield: 0
+    },
     riskMetrics: {
       volatility: 0.32,
       beta: 1.3,
@@ -318,33 +322,31 @@ const sampleStocks = [
       valueAtRisk: 0.2,
       maxDrawdown: 0.4
     },
-    technicalIndicators: {
-      rsi: 72,
-      macd: {
-        value: 5.2,
-        signal: 3.8,
-        histogram: 1.4
-      },
-      movingAverages: {
-        sma50: 460.5,
-        sma200: 420.2
-      }
+    historicalData: {
+      prices: [460.50, 465.80, 470.20, 474.99],
+      volumes: [14500000, 14800000, 14900000, 15000000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 1210000000000,
-      peRatio: 32.5,
-      dividendYield: 0,
-      debtToEquity: 0.1,
-      profitMargin: 0.3,
-      revenueGrowth: 0.22
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'NVDA',
-    companyName: 'NVIDIA Corporation',
+    name: 'NVIDIA Corporation',
     sector: 'Technology',
     industry: 'Semiconductors',
     currentPrice: 950.02,
+    priceChange: 15.75,
+    priceChangePercent: 1.69,
+    isUp: true,
+    volume: 35000000,
+    marketCap: 2340000000000,
+    description: 'NVIDIA Corporation designs, develops, and manufactures graphics processing units (GPUs) for the gaming, professional visualization, data center, and automotive markets.',
+    fundamentalData: {
+      marketCap: 2340000000000,
+      peRatio: 75.2,
+      eps: 12.63,
+      dividendYield: 0.001
+    },
     riskMetrics: {
       volatility: 0.35,
       beta: 1.4,
@@ -352,33 +354,31 @@ const sampleStocks = [
       valueAtRisk: 0.22,
       maxDrawdown: 0.45
     },
-    technicalIndicators: {
-      rsi: 78,
-      macd: {
-        value: 8.5,
-        signal: 5.2,
-        histogram: 3.3
-      },
-      movingAverages: {
-        sma50: 900.5,
-        sma200: 750.2
-      }
+    historicalData: {
+      prices: [900.50, 920.30, 935.80, 950.02],
+      volumes: [34000000, 34500000, 34800000, 35000000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 2340000000000,
-      peRatio: 75.2,
-      dividendYield: 0.1,
-      debtToEquity: 0.2,
-      profitMargin: 0.35,
-      revenueGrowth: 0.28
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'JNJ',
-    companyName: 'Johnson & Johnson',
+    name: 'Johnson & Johnson',
     sector: 'Healthcare',
     industry: 'Drug Manufacturers',
     currentPrice: 152.05,
+    priceChange: -0.85,
+    priceChangePercent: -0.56,
+    isUp: false,
+    volume: 6500000,
+    marketCap: 367000000000,
+    description: 'Johnson & Johnson researches, develops, manufactures, and sells various products in the healthcare field worldwide.',
+    fundamentalData: {
+      marketCap: 367000000000,
+      peRatio: 15.8,
+      eps: 9.62,
+      dividendYield: 0.032
+    },
     riskMetrics: {
       volatility: 0.18,
       beta: 0.7,
@@ -386,33 +386,31 @@ const sampleStocks = [
       valueAtRisk: 0.1,
       maxDrawdown: 0.2
     },
-    technicalIndicators: {
-      rsi: 48,
-      macd: {
-        value: -0.8,
-        signal: -0.5,
-        histogram: -0.3
-      },
-      movingAverages: {
-        sma50: 155.2,
-        sma200: 158.5
-      }
+    historicalData: {
+      prices: [155.20, 154.30, 153.20, 152.05],
+      volumes: [6300000, 6400000, 6450000, 6500000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 367000000000,
-      peRatio: 15.8,
-      dividendYield: 3.2,
-      debtToEquity: 0.4,
-      profitMargin: 0.2,
-      revenueGrowth: 0.08
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'JPM',
-    companyName: 'JPMorgan Chase & Co.',
+    name: 'JPMorgan Chase & Co.',
     sector: 'Financial Services',
     industry: 'Banks',
     currentPrice: 182.63,
+    priceChange: 2.15,
+    priceChangePercent: 1.19,
+    isUp: true,
+    volume: 8500000,
+    marketCap: 526000000000,
+    description: 'JPMorgan Chase & Co. operates as a financial services company worldwide.',
+    fundamentalData: {
+      marketCap: 526000000000,
+      peRatio: 13.2,
+      eps: 13.84,
+      dividendYield: 0.025
+    },
     riskMetrics: {
       volatility: 0.22,
       beta: 1.1,
@@ -420,33 +418,31 @@ const sampleStocks = [
       valueAtRisk: 0.15,
       maxDrawdown: 0.3
     },
-    technicalIndicators: {
-      rsi: 62,
-      macd: {
-        value: 2.1,
-        signal: 1.5,
-        histogram: 0.6
-      },
-      movingAverages: {
-        sma50: 180.5,
-        sma200: 175.2
-      }
+    historicalData: {
+      prices: [180.50, 181.20, 181.90, 182.63],
+      volumes: [8300000, 8400000, 8450000, 8500000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 526000000000,
-      peRatio: 13.2,
-      dividendYield: 2.5,
-      debtToEquity: 1.8,
-      profitMargin: 0.35,
-      revenueGrowth: 0.12
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'PG',
-    companyName: 'Procter & Gamble Co.',
+    name: 'Procter & Gamble Co.',
     sector: 'Consumer Staples',
     industry: 'Household & Personal Products',
     currentPrice: 156.84,
+    priceChange: 0.95,
+    priceChangePercent: 0.61,
+    isUp: true,
+    volume: 5500000,
+    marketCap: 370000000000,
+    description: 'The Procter & Gamble Company provides branded consumer packaged goods to consumers through mass merchandisers, e-commerce, grocery stores, membership club stores, and drug stores.',
+    fundamentalData: {
+      marketCap: 370000000000,
+      peRatio: 24.5,
+      eps: 6.40,
+      dividendYield: 0.028
+    },
     riskMetrics: {
       volatility: 0.15,
       beta: 0.5,
@@ -454,33 +450,31 @@ const sampleStocks = [
       valueAtRisk: 0.08,
       maxDrawdown: 0.15
     },
-    technicalIndicators: {
-      rsi: 55,
-      macd: {
-        value: 1.2,
-        signal: 0.8,
-        histogram: 0.4
-      },
-      movingAverages: {
-        sma50: 155.5,
-        sma200: 152.8
-      }
+    historicalData: {
+      prices: [155.50, 156.10, 156.50, 156.84],
+      volumes: [5400000, 5450000, 5480000, 5500000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 370000000000,
-      peRatio: 24.5,
-      dividendYield: 2.8,
-      debtToEquity: 0.6,
-      profitMargin: 0.18,
-      revenueGrowth: 0.05
-    }
+    lastUpdated: new Date()
   },
   {
     symbol: 'XOM',
-    companyName: 'Exxon Mobil Corporation',
+    name: 'Exxon Mobil Corporation',
     sector: 'Energy',
     industry: 'Oil & Gas Integrated',
     currentPrice: 115.24,
+    priceChange: 1.85,
+    priceChangePercent: 1.63,
+    isUp: true,
+    volume: 8500000,
+    marketCap: 460000000000,
+    description: 'Exxon Mobil Corporation explores for and produces crude oil and natural gas in the United States and internationally.',
+    fundamentalData: {
+      marketCap: 460000000000,
+      peRatio: 12.8,
+      eps: 9.00,
+      dividendYield: 0.035
+    },
     riskMetrics: {
       volatility: 0.2,
       beta: 1.2,
@@ -488,26 +482,12 @@ const sampleStocks = [
       valueAtRisk: 0.12,
       maxDrawdown: 0.25
     },
-    technicalIndicators: {
-      rsi: 58,
-      macd: {
-        value: 1.5,
-        signal: 1.2,
-        histogram: 0.3
-      },
-      movingAverages: {
-        sma50: 113.5,
-        sma200: 110.2
-      }
+    historicalData: {
+      prices: [113.50, 114.20, 114.80, 115.24],
+      volumes: [8300000, 8400000, 8450000, 8500000],
+      timestamps: [1625097600, 1625184000, 1625270400, 1625356800]
     },
-    fundamentalData: {
-      marketCap: 460000000000,
-      peRatio: 12.8,
-      dividendYield: 3.5,
-      debtToEquity: 0.3,
-      profitMargin: 0.15,
-      revenueGrowth: 0.08
-    }
+    lastUpdated: new Date()
   }
 ];
 

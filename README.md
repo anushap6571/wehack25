@@ -6,4 +6,4 @@ installs for backend (cd to backend) (or just npm install)
 npm install express --save-dev nodemon
 ```
 
-to start server do node server.js
+to start server do node server.JS

@@ -5,6 +5,7 @@ import Colors from '@/constants/Colors';
 import React, {useState} from 'react';
 
 export default function Home() {
+
     const router = useRouter();
     return (
         <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>

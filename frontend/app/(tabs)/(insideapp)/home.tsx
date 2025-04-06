@@ -1,24 +1,32 @@
 import { StyleSheet, FlatList, SafeAreaView, ScrollView, Image, Pressable, TextInput } from 'react-native';
 import { Text, View } from '@/components/Themed';
-import { useRouter } from 'expo-router'; 
+import { useRouter } from 'expo-router';
 import Colors from '@/constants/Colors';
 import React, {useState, useEffect} from 'react';
 import * as SecureStore from 'expo-secure-store';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
 export default function Home() {
     const router = useRouter();
     const [stockData, setStockData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
     async function fetchData(interests: string[], price: number, token: string) {
         setLoading(true);
         setError(null);
         const recommendedURL = 'http://localhost:3000/api/stocks/recommendations';
-
         try {
           console.log("Sending request with:", { interests, price });
+<<<<<<< HEAD
           
+=======
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
           const response = await fetch(recommendedURL, {
             method: 'POST',
             headers: {
@@ -31,12 +39,11 @@ export default function Home() {
               price: price,
             }),
           });
-      
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
-      
           const data = await response.json();
+<<<<<<< HEAD
           
           // Filter stocks to only include those that match our interests
           // or have price less than our specified maximum
@@ -47,6 +54,15 @@ export default function Home() {
           console.log("Filtered stocks:", filteredStocks);
           setStockData(filteredStocks);
       
+=======
+          // Filter stocks to only include those that match our interests
+          // or have price less than our specified maximum
+          const filteredStocks = data.recommendations.filter(stock =>
+            stock.matchedInterests.length > 0 || stock.price <= price
+          );
+          console.log("Filtered stocks:", filteredStocks);
+          setStockData(filteredStocks);
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
         } catch (error) {
           console.error("Error fetching stock recommendations:", error);
           setError("Failed to load stock recommendations");
@@ -54,7 +70,10 @@ export default function Home() {
           setLoading(false);
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
     useEffect(() => {
         const fetchEverything = async () => {
           try {
@@ -64,29 +83,40 @@ export default function Home() {
               setError("Authentication required");
               return;
             }
+<<<<<<< HEAD
       
+=======
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
             // Try using more specific interest categories that might match your API's categorization
             const interests = ["food"];
-            const amount = 100;
-
+            const amount = 50;
             await fetchData(interests, amount, token);
           } catch (error) {
             console.error("Something went wrong fetching token or data:", error);
             setError("Failed to initialize");
           }
         };
-      
         fetchEverything();
     }, []);
+<<<<<<< HEAD
 
     const renderItem = ({item}) => (
         <Pressable 
+=======
+    const renderItem = ({item}) => (
+        <Pressable
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
           style={styles.boxes}
           onPress={() => console.log("Selected stock:", item.symbol)}
         >
           {item.image && (
+<<<<<<< HEAD
             <Image 
               source={{ uri: item.image }} 
+=======
+            <Image
+              source={{ uri: item.image }}
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
               style={styles.stockImage}
               resizeMode="cover"
             />
@@ -98,7 +128,6 @@ export default function Home() {
           </View>
         </Pressable>
     );
-
     return (
         <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
             <View style={{paddingHorizontal: 20}}>
@@ -109,6 +138,7 @@ export default function Home() {
                   }}>
                   <View style={styles.profileCircle}/>
                 </Pressable>
+<<<<<<< HEAD
                 
                 <Text style={[styles.header, {marginTop: 40}]}>Rising Favorites</Text>
                 {loading ? (
@@ -127,6 +157,20 @@ export default function Home() {
                   />
                 )}
                 
+=======
+                <Text style={[styles.header, {marginTop: 40}]}>Rising Favorites</Text>
+                <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{flexDirection: 'row', marginVertical: 20}}>
+                    <Pressable style={styles.boxes}>
+                        <Text>Bob</Text>
+                    </Pressable>
+                    <Pressable style={styles.boxes}>
+                        <Text>Bob</Text>
+                    </Pressable>
+                    <Pressable style={styles.boxes}>
+                        <Text>Bob</Text>
+                    </Pressable>
+                </ScrollView>
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
                 <Text style={styles.header}>Recommended for you</Text>
                 {loading ? (
                   <Text>Loading stocks...</Text>
@@ -164,7 +208,6 @@ export default function Home() {
         </SafeAreaView>
     );
 }
-
 const styles = StyleSheet.create({
     profileCircle: {
         height: 40,
@@ -177,13 +220,21 @@ const styles = StyleSheet.create({
         color: Colors.light.darkGreen,
         fontSize: 24,
         fontWeight: 'bold',
-    }, 
+    },
     boxes: {
+<<<<<<< HEAD
         width: 225, 
         height: 134, 
         overflow: 'hidden', 
         backgroundColor: Colors.light.lightGray, 
         marginRight: 20, 
+=======
+        width: 225,
+        height: 134,
+        overflow: 'hidden',
+        backgroundColor: Colors.light.lightGray,
+        marginRight: 20,
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
         borderRadius: 20,
         position: 'relative'
     },

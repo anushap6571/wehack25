@@ -90,9 +90,13 @@ mongoose.connection.on('disconnected', () => {
 app.use('/api/auth', require('./src/routes/auth.routes.js'));
 app.use('/api/stocks', require('./src/routes/stock.routes.js'));
 app.use('/api/recommendations', require('./src/routes/recommendation.routes.js'));
+<<<<<<< HEAD
 // ... your existing routes ...
 app.use('/api/favorites', require('./src/routes/favorites.routes.js'));
 
+=======
+app.use('/api/chat', require('./src/routes/chat.routes.js'));
+>>>>>>> 08558382ae9a2a992d602f94ced914a5be93f2ce
 
 // Chatbot endpoint to handle general finance-related questions
 app.post('/api/chat', async (req, res) => {
@@ -104,6 +108,7 @@ app.post('/api/chat', async (req, res) => {
         
         // Get the response from the chatbot
         const response = await chatbot.getResponse(message); // Call the chatbot's getResponse method
+        console.log("printed response",response);
         res.json({ response }); // Return the response as JSON
     } catch (error) {
         console.error('Chat error:', error);

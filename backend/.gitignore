@@ -4,3 +4,4 @@ package-lock.json
 combined.log
 *.log
 *.env
+error.log

@@ -1,5 +1,6 @@
 const stockService = require('../services/stock.service');
 const Stock = require('../models/stock.model');
+const User = require('../models/User');
 const stockScraperService = require('../services/stockScraper.service');
 const InterestMapperService = require('../services/interestMapper.service');
 const imageService = require('../services/image.service');
@@ -131,9 +132,29 @@ class StockController {
     }
   }
 
-  async getStockRecommendations(req, res) {
+  async getStockRecommendations(req, res) {  
     try {
       const { interests, maxPrice, minPrice } = req.body;
+      
+      const userId = req.user.userId; 
+      const user = await User.findById(userId);
+      try {
+        if (user) {
+            // Update user's interests array
+            user.interests = interests;  
+            user.maxStockPrice = maxPrice;       
+            await user.save();
+            console.log('Updated user interests:', user.interests);
+            console.log('Updated user price:', user.price);
+        }
+    } catch (userError) {
+        console.error('Error updating user interests and user price:', userError);
+    }
+
+
+    
+    
+
       
       if (!interests || !Array.isArray(interests) || interests.length === 0) {
         return res.status(400).json({ 
@@ -254,6 +275,18 @@ class StockController {
         .slice(0, 20);
 
       console.log(`Returning ${sortedRecommendations.length} recommendations from database`);
+
+      try {
+        
+        if (user) {
+            // Save the sortedRecommendations array directly to user's recommendations
+            user.recommendations = sortedRecommendations;
+            await user.save();
+            console.log(`Saved ${sortedRecommendations.length} recommendations to user ${userId}`);
+          } 
+    } catch (userError) {
+        console.error('Error saving recommendations to user:', userError);
+    }
 
       // Return a clean, organized response
       res.json({

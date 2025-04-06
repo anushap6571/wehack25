@@ -10,6 +10,7 @@ router.get('/:symbol', stockController.getStockData);
 
 // Protected routes
 router.post('/recommendations', auth, stockController.getStockRecommendations.bind(stockController));
+//function will past in interests  
 router.post('/update-database', auth, stockController.updateStockDatabase.bind(stockController));
 
 module.exports = router; 

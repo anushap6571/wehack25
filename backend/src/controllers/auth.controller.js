@@ -114,6 +114,7 @@ class AuthController {
   // Get current user profile
   async getProfile(req, res) {
     try {
+
       const user = await User.findById(req.user.userId).select('-password');
       
       if (!user) {

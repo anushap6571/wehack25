@@ -2,6 +2,7 @@ const express = require('express');
 //import the connection 
 const { connectToDatabase } = require('./src/models/db');
 
+
 const app = express();
 const port = 3000;
 

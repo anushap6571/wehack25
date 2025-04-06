@@ -132,13 +132,37 @@ class StockController {
     }
   }
 
+    async saveUserInterests(req, res) {
+      const { interests, maxPrice, minPrice } = req.body;
+      const userId = req.user.userId; 
+      const user = await User.findById(userId);
+      try {
+        if (user) {
+            user.interests = interests;
+            user.maxStockPrice = maxPrice;
+            await user.save();
+        }
+      } catch (userError) {
+        console.error('Error saving user interests:', userError);
+      }
+      res.json({ success: true });
+    }
+
+    async getUserInterests(req, res) {
+      const userId = req.user.userId; 
+      const user = await User.findById(userId);
+      res.json(user.interests);
+    }
+
+
+  // Get stock recommendations based on user interests and price range
   async getStockRecommendations(req, res) {  
     try {
       const { interests, maxPrice, minPrice } = req.body;
       
       const userId = req.user.userId; 
       const user = await User.findById(userId);
-      try {
+      /*try {
         if (user) {
             // Update user's interests array
             user.interests = interests;  
@@ -149,7 +173,7 @@ class StockController {
         }
     } catch (userError) {
         console.error('Error updating user interests and user price:', userError);
-    }
+    }*/
 
 
     

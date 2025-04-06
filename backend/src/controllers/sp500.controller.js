@@ -1,36 +1,55 @@
 const axios = require('axios');
 
-const API_KEY = process.env.FINANCE_GREP_API_KEY; // Store your API key in your .env file
-
 const getTopSP500 = async (req, res) => {
   try {    
-    const listRes = await axios.get(`https://financialmodelingprep.com/api/v3/sp500_constituent?apikey=${API_KEY}`);
-    const companies = listRes.data;
+    const API_KEY = process.env.FINNHUB_API_KEY;
+    if (!API_KEY) {
+      throw new Error('Finnhub API key is not configured');
+    }
 
-    const marketCaps = await Promise.all(
-      companies.slice(0, 50).map(async (company) => {
+    // List of top S&P 500 stocks
+    const symbols = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'META', 'TSLA', 'BRK-B', 'UNH', 'JNJ'];
+
+    // Get quotes for each stock
+    const stockDetails = await Promise.all(
+      symbols.map(async (symbol) => {
         try {
-          const profileRes = await axios.get(`https://financialmodelingprep.com/api/v3/profile/${company.symbol}?apikey=${API_KEY}`);
-          const profile = profileRes.data[0];
+          const quoteResponse = await axios.get('https://finnhub.io/api/v1/quote', {
+            params: {
+              symbol: symbol,
+              token: API_KEY
+            }
+          });
+
+          const profileResponse = await axios.get('https://finnhub.io/api/v1/stock/profile2', {
+            params: {
+              symbol: symbol,
+              token: API_KEY
+            }
+          });
+
           return {
-            symbol: company.symbol,
-            name: company.name,
-            marketCap: profile?.mktCap || 0,
+            symbol: symbol,
+            name: profileResponse.data.name || symbol,
+            marketCap: quoteResponse.data.marketCap || 0
           };
         } catch (err) {
-          return { symbol: company.symbol, name: company.name, marketCap: 0 };
+          console.error(`Error fetching details for ${symbol}:`, err.message);
+          return { symbol: symbol, name: symbol, marketCap: 0 };
         }
       })
     );
 
-    const top10 = marketCaps
-      .sort((a, b) => b.marketCap - a.marketCap)
-      .slice(0, 10);
+    // Sort by market cap
+    const sortedStocks = stockDetails.sort((a, b) => b.marketCap - a.marketCap);
 
-    res.json(top10);
+    res.json(sortedStocks);
   } catch (error) {
     console.error('Failed to fetch S&P 500 data:', error);
-    res.status(500).json({ error: 'Failed to fetch S&P 500 data' });
+    res.status(500).json({ 
+      error: 'Failed to fetch S&P 500 data',
+      details: error.message 
+    });
   }
 };
 

@@ -4,8 +4,6 @@ import { useRouter } from 'expo-router';
 import Colors from '@/constants/Colors';
 import React, {useState} from 'react';
 
-
-
 export default function Input() {
     const router = useRouter();
 

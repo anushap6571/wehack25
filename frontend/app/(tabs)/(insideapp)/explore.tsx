@@ -16,6 +16,10 @@ export default function Explore() {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
+    const addLike = () => {
+
+    }
+    
     const handleNext = () => {
         if(currentIndex < stockData.length - 1) {
             setCurrentIndex(currentIndex + 1);

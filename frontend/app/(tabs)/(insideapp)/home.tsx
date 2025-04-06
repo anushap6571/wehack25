@@ -102,6 +102,7 @@ export default function Home() {
     return (
         <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
             <View style={{paddingHorizontal: 20}}>
+                <Text>Hello, lets get saving!</Text>
                 <Pressable
                   onPress={() => {
                     router.replace('/(tabs)/signout');

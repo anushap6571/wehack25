@@ -3,7 +3,6 @@ import { Text, View } from '@/components/Themed';
 import { useRouter } from 'expo-router'; 
 import Colors from '@/constants/Colors';
 import React, {useState, useEffect} from 'react';
-import Input from '../input';
 import * as SecureStore from 'expo-secure-store';
 
 export default function Home() {

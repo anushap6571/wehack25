@@ -4,6 +4,10 @@ import { useRouter } from 'expo-router';
 import Colors from '@/constants/Colors';
 import React, {useState} from 'react';
 import { HomeScreenParams } from '@/constants/types/types.ts';
+import axios from 'axios';
+import * as SecureStore from 'expo-secure-store';
+
+const INPUT_URL = 'http://localhost:3000/api/stocks/save-user-interests';
 
 export default function Input() {
     const router = useRouter();
@@ -17,6 +21,7 @@ export default function Input() {
     const [priceFilled, setPriceFilled] = useState(false);
 
     const [interests, setInterests] = useState([]);  // Use state to keep track of interests
+    const [errorMessage, setErrorMessage] = useState('');
 
     const handleNumber = (money : string) => {
         setPriceFilled(true);
@@ -51,6 +56,35 @@ export default function Input() {
                 return [...prevInterests, category]; // Add category to the array
             }
         });
+    }
+
+    const handleInput = async () => {
+        try {
+            const token = await SecureStore.getItemAsync("authToken");
+
+            const inputClient = axios.create({
+                baseURL: INPUT_URL,
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`
+                },
+            });
+
+            const response = await inputClient.post('', {
+                interests,
+                price,
+            });
+
+        } catch (error) {
+            setIsLoading(false);
+            console.log("Error during login:", error);
+            
+            if (error.response && error.response.data) {
+                setErrorMessage(error.response.data.message);
+            } else {
+                setErrorMessage('Incorrect email or password');
+            }
+        }
     }
 
     return (
@@ -106,6 +140,7 @@ export default function Input() {
             <Pressable
             onPress={() => {
               if(interests.length != 0 && priceFilled) {
+                handleInput();
                 const interestsQuery = interests.join(',');
                 console.log(interestsQuery);
                 router.push(`/home?interests=${interestsQuery}&price=${parseInt(price)}`);

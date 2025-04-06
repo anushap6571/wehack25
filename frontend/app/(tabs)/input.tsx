@@ -113,7 +113,7 @@ export default function Input() {
               }
             }}
             style={{marginTop: 40, backgroundColor: Colors.light.darkGreen, height: 55, width: 324, paddingHorizontal: 20, borderRadius: 100, justifyContent: 'center', alignItems: 'center'}}>
-                <Text style={{color: 'white', fontWeight: '600'}}>Login</Text>
+                <Text style={{color: 'white', fontWeight: '600'}}>Next</Text>
             </Pressable>
         </SafeAreaView>
     )

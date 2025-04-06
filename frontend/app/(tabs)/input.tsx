@@ -2,12 +2,12 @@ import { StyleSheet, SafeAreaView, ScrollView, Image, Pressable, TextInput } fro
 import { Text, View } from '@/components/Themed';
 import { useRouter } from 'expo-router'; 
 import Colors from '@/constants/Colors';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { HomeScreenParams } from '@/constants/types/types.ts';
 import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 
-const INPUT_URL = 'http://localhost:3000/api/stocks/save-user-interests';
+const INPUT_URL = 'http://localhost:3000/api/auth/save-user-interests';
 
 export default function Input() {
     const router = useRouter();
@@ -26,6 +26,18 @@ export default function Input() {
     const handleNumber = (money : string) => {
         setPriceFilled(true);
         setNumber(money);
+    }
+
+    useEffect(() => {
+        reset();
+    }, [])
+
+    const reset = () => {
+        setFood(false);
+        setClothes(false);
+        setSports(false);
+        setTech(false);
+        setTravel(false);
     }
 
     const handlePressed = (category : string) => {

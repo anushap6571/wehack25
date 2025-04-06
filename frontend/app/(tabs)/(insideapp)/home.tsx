@@ -8,7 +8,7 @@ import { HomeScreenParams } from './types';
 import axios from 'axios';
 
 
-const GETDATA_URL = 'http://localhost:3000/api/stocks/get-user-interests';
+const GETDATA_URL = 'http://localhost:3000/api/auth/get-user-interests';
 
 export default function Home() {
     const router = useRouter();
@@ -80,13 +80,14 @@ export default function Home() {
         const fetchEverything = async () => {
           try {
             const token = await SecureStore.getItemAsync("authToken");
-
             const interests = await getOutput();
+            console.log(interests);
+            
             const amount = 200;
-            console.log("HELLOOO", interests);
+            console.log("HELLO", interests);
 
             await fetchData(interests, amount, token);
-            console.log("");
+            console.log("BOBBYY");
           } catch (error) {
             console.error("Something went wrong fetching token or data:", error);
             setError("Failed to initialize");
@@ -117,25 +118,33 @@ export default function Home() {
     return (
         <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
             <View style={{paddingHorizontal: 20}}>
-                <Text>Hello, lets get saving!</Text>
+                <View style={{flex: 1, flexDirection: 'row'}}>
+                <Text style={{color: 'black'}}>Hello, lets get saving!</Text>
                 <Pressable
                   onPress={() => {
                     router.replace('/(tabs)/signout');
                   }}>
                   <View style={styles.profileCircle}/>
                 </Pressable>
+
+                </View>
                 <Text style={[styles.header, {marginTop: 40}]}>Rising Favorites</Text>
-                <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{flexDirection: 'row', marginVertical: 20}}>
-                    <Pressable style={styles.boxes}>
-                        <Text>Bob</Text>
-                    </Pressable>
-                    <Pressable style={styles.boxes}>
-                        <Text>Bob</Text>
-                    </Pressable>
-                    <Pressable style={styles.boxes}>
-                        <Text>Bob</Text>
-                    </Pressable>
-                </ScrollView>
+                {loading ? (
+                  <Text>Loading stocks...</Text>
+                ) : error ? (
+                  <Text style={styles.errorText}>{error}</Text>
+                ) : stockData.length === 0 ? (
+                  <Text>No matching stocks found. Try adjusting your criteria.</Text>
+                ) : (
+                  <FlatList
+                    horizontal
+                    showsHorizontalScrollIndicator={false}
+                    data={stockData}
+                    keyExtractor={(item) => item.symbol}
+                    renderItem={renderItem}
+                  />
+                )}
+
                 <Text style={styles.header}>Recommended for you</Text>
                 {loading ? (
                   <Text>Loading stocks...</Text>
@@ -185,8 +194,10 @@ const styles = StyleSheet.create({
         color: Colors.light.darkGreen,
         fontSize: 24,
         fontWeight: 'bold',
+        marginTop: 20,
     },
     boxes: {
+        marginTop: 20,
         width: 225,
         height: 134,
         overflow: 'hidden',

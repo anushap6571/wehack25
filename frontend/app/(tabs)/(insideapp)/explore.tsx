@@ -117,7 +117,7 @@ export default function Explore() {
 
     return (
             <ImageBackground 
-                source={require('@/assets/images/dummyImages/southwest.jpg')} 
+                source={{ uri: currentStock.image }}
                 style={{flex: 1}}
                 resizeMode="cover"
             >

@@ -3,6 +3,7 @@ const router = express.Router();
 const authController = require('../controllers/auth.controller');
 const authMiddleware = require('../middleware/auth.middleware');
 const { body } = require('express-validator');
+const auth = require('../middleware/auth');
 
 // Validation middleware
 const validateRegistration = [
@@ -56,7 +57,12 @@ router.post('/login', validateLogin, authController.login);
 
 // Protected routes
 router.get('/profile', authMiddleware, authController.getProfile);
-router.put('/preferences', authMiddleware, validatePreferences, authController.updatePreferences);
 router.post('/preferences', authMiddleware, validatePreferences, authController.updatePreferences);
+
+router.post('/save-user-interests', auth, authController.saveUserInterests.bind(authController));
+router.get('/get-user-interests', auth, authController.getUserInterests.bind(authController));
+
+router.get('/get-user-max-price', auth, authController.getUserMaxPrice.bind(authController));
+
 
 module.exports = router; 

@@ -10,8 +10,7 @@ router.get('/sector/:sector', stockController.getStocksBySector);
 // Protected routes
 router.post('/recommendations', auth, stockController.getStockRecommendations.bind(stockController));
 router.post('/update-database', auth, stockController.updateStockDatabase.bind(stockController));
-router.post('/save-user-interests', auth, stockController.saveUserInterests.bind(stockController));
-router.get('/get-user-interests', auth, stockController.getUserInterests.bind(stockController));
+
 
 // This should be last to prevent it from catching other routes
 router.get('/:symbol', stockController.getStockData);

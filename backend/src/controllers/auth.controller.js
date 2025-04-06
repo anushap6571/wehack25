@@ -173,6 +173,37 @@ class AuthController {
       });
     }
   }
+
+  async saveUserInterests(req, res) {
+    const { interests, maxPrice, minPrice } = req.body;
+    const userId = req.user.userId; 
+    const user = await User.findById(userId);
+    try {
+      if (user) {
+          user.interests = interests;
+          user.maxStockPrice = maxPrice;
+          await user.save();
+      }
+    } catch (userError) {
+      console.error('Error saving user interests:', userError);
+    }
+    res.json({ success: true });
+  }
+
+  async getUserInterests(req, res) {
+    const userId = req.user.userId; 
+    const user = await User.findById(userId);
+    res.json(user.interests);
+  }
+
+  async getUserMaxPrice(req, res) {
+    const userId = req.user.userId; 
+    const user = await User.findById(userId);
+    res.json(user.maxStockPrice);
+  }
+  
 }
+
+
 
 module.exports = new AuthController(); 

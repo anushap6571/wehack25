@@ -4,6 +4,7 @@ import { useRouter } from 'expo-router';
 import Colors from '@/constants/Colors';
 import React, { useState } from 'react';
 import axios from 'axios';
+import * as SecureStore from 'expo-secure-store';
 
 const LOGIN_URL = 'http://localhost:3000/api/auth/login';
 
@@ -58,6 +59,13 @@ export default function Login() {
                 email,
                 password,
             });
+            
+            // Store the authentication token
+            if (response.data.token) {
+                await SecureStore.setItemAsync('authToken', response.data.token);
+            } else {
+                throw new Error('No authentication token received');
+            }
             
             console.log(response.data.message);
             setIsLoading(false);

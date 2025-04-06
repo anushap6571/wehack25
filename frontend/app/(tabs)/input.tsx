@@ -4,6 +4,8 @@ import { useRouter } from 'expo-router';
 import Colors from '@/constants/Colors';
 import React, {useState} from 'react';
 
+
+
 export default function Input() {
     const router = useRouter();
 
@@ -104,8 +106,6 @@ export default function Input() {
 
             <Pressable
             onPress={() => {
-                console.log(priceFilled);
-                console.log(interests.length);
               if(interests.length != 0 && priceFilled) {
                 router.replace('/(tabs)/(insideapp)/home');
               } else {

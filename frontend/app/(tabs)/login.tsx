@@ -2,29 +2,92 @@ import { StyleSheet, SafeAreaView, Image, Pressable, TextInput } from 'react-nat
 import { Text, View } from '@/components/Themed';
 import { useRouter } from 'expo-router'; 
 import Colors from '@/constants/Colors';
-import React, {useState} from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
+
+const LOGIN_URL = 'http://localhost:3000/api/auth/login';
+
+const loginClient = axios.create({
+    baseURL: LOGIN_URL,
+    headers: {
+        'Content-Type': 'application/json',
+    },
+});
 
 export default function Login() {
     const router = useRouter();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
 
-    const handleEmailInput = (text : string) => {
+    const handleEmailInput = (text: string) => {
         setEmail(text);
-    }
+        setErrorMessage(''); // Clear error message when user types
+    };
     
-    const handlePasswordInput = (text : string) => {
+    const handlePasswordInput = (text: string) => {
         setPassword(text);
-    }
+        setErrorMessage(''); // Clear error message when user types
+    };
 
-    const checkID = () => {
-      if(email == "Mxiong935@gmail.com" && password == "Bob") {
+    const validateInputs = () => {
+        if (!email || !password) {
+            setErrorMessage('Email and password are required');
+            return false;
+        }
+        
+        // Basic email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            setErrorMessage('Please enter a valid email address');
+            return false;
+        }
+
         return true;
-      }
-      else {
-        return false;
-      }
-    }
+    };
+
+    const handleLogin = async () => {
+        if (!validateInputs()) {
+            return;
+        }
+
+        setIsLoading(true);
+        try {
+            const response = await loginClient.post('', {
+                email,
+                password,
+            });
+            
+            console.log(response.data.message);
+            setIsLoading(false);
+            router.replace('/(tabs)/(insideapp)/home');
+            
+        } catch (error) {
+            setIsLoading(false);
+            console.log("Error during login:", error);
+            
+            if (error.response && error.response.data) {
+                setErrorMessage(error.response.data.message);
+            } else {
+                setErrorMessage('Incorrect email or password');
+            }
+        }
+    };
+
+    // Input style with error state
+    const inputStyle = (hasError) => ({
+        marginTop: 20,
+        borderWidth: 2,
+        borderColor: hasError ? Colors.light.error || 'red' : Colors.light.lightGray,
+        height: 55,
+        width: 324,
+        paddingHorizontal: 20,
+        borderRadius: 100,
+        fontSize: 14,
+        fontWeight: '700',
+        color: Colors.light.darkGray,
+    });
 
     return (
         <SafeAreaView style={styles.container}>
@@ -36,36 +99,48 @@ export default function Login() {
                     </View>
                 </Pressable>
             </View>
-            <Text style={{fontSize: 30, color: Colors.light.darkGreen, fontWeight: '700', marginTop: 100}}>welcome back</Text>
+            
+            <Text style={styles.title}>welcome back</Text>
+            
             <TextInput
-                style={{marginTop: 60, borderWidth: 2, borderColor: Colors.light.lightGray, height: 55, width: 324, paddingHorizontal: 20, borderRadius: 100, fontSize: 14, fontWeight: '700', color: Colors.light.darkGray}}
+                style={inputStyle(false)}
                 placeholder="enter your email"
                 value={email}
                 onChangeText={handleEmailInput}
+                keyboardType="email-address"
+                autoCapitalize="none"
             />
+            
             <TextInput
-                style={{marginTop: 20, borderWidth: 2, borderColor: Colors.light.lightGray, height: 55, width: 324, paddingHorizontal: 20, borderRadius: 100, fontSize: 14, fontWeight: '700', color: Colors.light.darkGray}}
+                style={inputStyle(false)}
                 placeholder="enter your password"
                 value={password}
                 onChangeText={handlePasswordInput}
+                secureTextEntry
+                autoCapitalize="none"
             />
 
-            <Pressable
-            onPress={() => {
-              if(checkID()) {
-                router.replace('/(tabs)/(insideapp)/home');
-              } else {
-                alert('Incorrect email or password');
-              }
-            }}
-            style={{marginTop: 40, backgroundColor: Colors.light.darkGreen, height: 55, width: 324, paddingHorizontal: 20, borderRadius: 100, justifyContent: 'center', alignItems: 'center'}}>
-                <Text style={{color: 'white', fontWeight: '600'}}>Login</Text>
+            {errorMessage ? (
+                <Text style={styles.errorText}>{errorMessage}</Text>
+            ) : null}
+
+            <Pressable 
+                onPress={handleLogin}
+                disabled={isLoading}
+                style={({ pressed }) => [
+                    styles.loginButton,
+                    { opacity: pressed || isLoading ? 0.7 : 1 }
+                ]}
+            >
+                <Text style={styles.buttonText}>
+                    {isLoading ? 'Logging in...' : 'Login'}
+                </Text>
             </Pressable>
 
-            <View style={{flex: 1, flexDirection: 'row', backgroundColor: 'white', top: 30, justifyContent: 'center'}}>
-                <Text style={{fontSize: 14}}>already have an account?</Text>
-                <Pressable onPress={() => router.push('/signup')} style={{marginLeft: 5}}>
-                    <Text style={{color: Colors.light.neonGreen, fontSize: 14}}>sign up</Text>
+            <View style={styles.signupPrompt}>
+                <Text style={styles.signupText}>don't have an account?</Text>
+                <Pressable onPress={() => router.push('/signup')} style={styles.signupLink}>
+                    <Text style={styles.signupLinkText}>sign up</Text>
                 </Pressable>
             </View>
         </SafeAreaView>
@@ -73,28 +148,73 @@ export default function Login() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    backgroundColor: 'white',
-  },
-  backContainer: {
-    width: '100%',
-    paddingTop: 20, // Adjust padding as needed
-    paddingLeft: 15, // Ensure the back button isn't too close to the edge
-  },
-  backButton: {
-    flexDirection: 'row', // Align the icon and text horizontally
-    alignItems: 'center', // Center both the image and text vertically
-  },
-  backIcon: {
-    width: 20, // Set the width of the icon
-    height: 20, // Set the height of the icon
-    marginRight: 8, // Add space between icon and text
-  },
-  backText: {
-    fontSize: 18,
-    fontWeight: '600',
-    color: Colors.light.darkGray, // Adjust text color if needed
-  },
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        backgroundColor: 'white',
+    },
+    backContainer: {
+        width: '100%',
+        paddingTop: 20,
+        paddingLeft: 15,
+    },
+    backButton: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    backIcon: {
+        width: 20,
+        height: 20,
+        marginRight: 8,
+    },
+    backText: {
+        fontSize: 18,
+        fontWeight: '600',
+        color: Colors.light.darkGray,
+    },
+    title: {
+        fontSize: 30,
+        color: Colors.light.darkGreen,
+        fontWeight: '700',
+        marginTop: 100,
+        marginBottom: 40,
+    },
+    errorText: {
+        color: 'red',
+        marginTop: 15,
+        textAlign: 'center',
+        maxWidth: 324,
+        fontSize: 14,
+    },
+    loginButton: {
+        marginTop: 40,
+        backgroundColor: Colors.light.darkGreen,
+        height: 55,
+        width: 324,
+        paddingHorizontal: 20,
+        borderRadius: 100,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    buttonText: {
+        color: 'white',
+        fontWeight: '600',
+        fontSize: 16,
+    },
+    signupPrompt: {
+        flexDirection: 'row',
+        backgroundColor: 'white',
+        marginTop: 30,
+        justifyContent: 'center',
+    },
+    signupText: {
+        fontSize: 14,
+    },
+    signupLink: {
+        marginLeft: 5,
+    },
+    signupLinkText: {
+        color: Colors.light.neonGreen,
+        fontSize: 14,
+    },
 });

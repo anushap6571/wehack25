@@ -13,7 +13,9 @@ module.exports = (req, res, next) => {
     const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-secret-key');
     
     // Add user data to request
-    req.user = decoded;
+    req.user = {
+      id: decoded.userId  // Match the userId from the token
+  };
     
     next();
   } catch (error) {

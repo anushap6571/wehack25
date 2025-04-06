@@ -3,9 +3,6 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const winston = require('winston');
-//const likesController = require('./src/controllers/likes.controller');
-
-
 const imageRoutes = require('./src/routes/image.routes');
 // Load environment variables
 dotenv.config();
@@ -90,10 +87,12 @@ mongoose.connection.on('disconnected', () => {
 });
 
 // Routes
-//app.use('/api/likes', require('./src/routes/likes.routes.js'));
 app.use('/api/auth', require('./src/routes/auth.routes.js'));
 app.use('/api/stocks', require('./src/routes/stock.routes.js'));
 app.use('/api/recommendations', require('./src/routes/recommendation.routes.js'));
+// ... your existing routes ...
+app.use('/api/favorites', require('./src/routes/favorites.routes.js'));
+
 
 // Chatbot endpoint to handle general finance-related questions
 app.post('/api/chat', async (req, res) => {

@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
+const Stock = require('./Stock'); 
+
 
 const userSchema = new mongoose.Schema({
   username: {
@@ -21,10 +23,28 @@ const userSchema = new mongoose.Schema({
     required: true,
     minlength: 6
   },
+  maxStockPrice: {
+    type: Number,
+    default: 0
+  },
   interests: {
     type: [String],
     default: []
   },
+  favorites: {
+    type: [String],
+    default: []
+  },
+  recommendations: [{
+    name: String,
+    symbol: String,
+    price: Number,
+    recommendationScore: Number,
+    industry: String,
+    sector: String,
+    matchedInterests: [String],
+    image: String
+}],
   riskTolerance: {
     type: Number,
     default: 0.5,

@@ -293,3 +293,4 @@
 {"level":"info","message":"Server is running on http://localhost:3000"}
 {"level":"info","message":"Connected to MongoDB Atlas"}
 {"level":"info","message":"Scheduled jobs initialized successfully"}
+

@@ -39,13 +39,15 @@ const validateLogin = [
 
 const validatePreferences = [
   body('interests')
-    .optional()
     .isArray()
-    .withMessage('Interests must be an array'),
-  body('riskTolerance')
-    .optional()
-    .isFloat({ min: 0, max: 1 })
-    .withMessage('Risk tolerance must be a number between 0 and 1')
+    .withMessage('Interests must be an array')
+    .notEmpty()
+    .withMessage('At least one interest is required'),
+  body('maxPrice')
+    .isNumeric()
+    .withMessage('Max price must be a number')
+    .isFloat({ min: 0 })
+    .withMessage('Max price must be a positive number')
 ];
 
 // Public routes
@@ -55,5 +57,6 @@ router.post('/login', validateLogin, authController.login);
 // Protected routes
 router.get('/profile', authMiddleware, authController.getProfile);
 router.put('/preferences', authMiddleware, validatePreferences, authController.updatePreferences);
+router.post('/preferences', authMiddleware, validatePreferences, authController.updatePreferences);
 
 module.exports = router; 

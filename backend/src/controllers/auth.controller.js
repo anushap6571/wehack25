@@ -134,23 +134,24 @@ class AuthController {
     }
   }
 
-  // Update user interests and risk tolerance
+  // Update user preferences
   async updatePreferences(req, res) {
     try {
-      const { interests, riskTolerance } = req.body;
+      const errors = validationResult(req);
+      if (!errors.isEmpty()) {
+        return res.status(400).json({ errors: errors.array() });
+      }
+
+      const { interests, maxPrice } = req.body;
       
       const user = await User.findById(req.user.userId);
       if (!user) {
         return res.status(404).json({ error: 'User not found' });
       }
 
-      if (interests) {
-        user.interests = interests;
-      }
-      
-      if (riskTolerance !== undefined) {
-        user.riskTolerance = riskTolerance;
-      }
+      // Update user preferences
+      user.interests = interests;
+      user.maxStockPrice = maxPrice;
 
       await user.save();
 
@@ -161,7 +162,7 @@ class AuthController {
           username: user.username,
           email: user.email,
           interests: user.interests,
-          riskTolerance: user.riskTolerance
+          maxStockPrice: user.maxStockPrice
         }
       });
     } catch (error) {

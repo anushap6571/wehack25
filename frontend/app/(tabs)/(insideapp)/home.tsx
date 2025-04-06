@@ -1,14 +1,25 @@
 import { StyleSheet, FlatList, SafeAreaView, ScrollView, Image, Pressable, TextInput } from 'react-native';
 import { Text, View } from '@/components/Themed';
-import { useRouter } from 'expo-router';
+import { useRouter} from 'expo-router';
 import Colors from '@/constants/Colors';
 import React, {useState, useEffect} from 'react';
 import * as SecureStore from 'expo-secure-store';
+import { HomeScreenParams } from './types';
+
 export default function Home() {
     const router = useRouter();
     const [stockData, setStockData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    // Inside Home.tsx
+    const { interestsQuery, price } = router.query as HomeScreenParams || {};  // Safe access with fallback to an empty object
+
+    useEffect(()=>{
+      if(!router.isReady) return;
+  
+      // codes using router.query
+  
+  }, [router.isReady]);
 
     async function fetchData(interests: string[], price: number, token: string) {
         setLoading(true);
@@ -47,6 +58,7 @@ export default function Home() {
         }
     }
     useEffect(() => {
+      console.log("Router query:", router.query);
         const fetchEverything = async () => {
           try {
             const token = await SecureStore.getItemAsync("authToken");
@@ -57,7 +69,8 @@ export default function Home() {
             }
             // Try using more specific interest categories that might match your API's categorization
             const interests = ["food"];
-            const amount = 100;
+            const amount = 200;
+
             await fetchData(interests, amount, token);
           } catch (error) {
             console.error("Something went wrong fetching token or data:", error);

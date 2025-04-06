@@ -3,6 +3,7 @@ import { Text, View } from '@/components/Themed';
 import { useRouter } from 'expo-router'; 
 import Colors from '@/constants/Colors';
 import React, {useState} from 'react';
+import { HomeScreenParams } from '@/constants/types/types.ts';
 
 export default function Input() {
     const router = useRouter();
@@ -105,7 +106,9 @@ export default function Input() {
             <Pressable
             onPress={() => {
               if(interests.length != 0 && priceFilled) {
-                router.replace('/(tabs)/(insideapp)/home');
+                const interestsQuery = interests.join(',');
+                console.log(interestsQuery);
+                router.push(`/home?interests=${interestsQuery}&price=${parseInt(price)}`);
               } else {
                 alert('Incorrect input');
               }

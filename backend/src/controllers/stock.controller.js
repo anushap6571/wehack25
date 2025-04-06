@@ -2,6 +2,7 @@ const stockService = require('../services/stock.service');
 const Stock = require('../models/stock.model');
 const stockScraperService = require('../services/stockScraper.service');
 const InterestMapperService = require('../services/interestMapper.service');
+const imageService = require('../services/image.service');
 
 class StockController {
   // Fetch and store stocks for all interest categories
@@ -213,7 +214,7 @@ class StockController {
         if (StockController.isWithinPriceRange(stock.currentPrice, minPrice, maxPrice)) {
           const score = StockController.calculateRecommendationScore(stock, sectors, industries);
           const matchedInterests = StockController.getMatchedInterests(stock, interests);
-          
+          const image = await imageService.generateCompanyImage(stock.name, stock.industry, stock.sector);
           // Create a simplified stock object with only the essential information
           const simplifiedStock = {
             name: stock.name || stock.companyName || 'Unknown',
@@ -222,7 +223,8 @@ class StockController {
             recommendationScore: score,
             industry: stock.industry || 'Unknown',
             sector: stock.sector || 'Unknown',
-            matchedInterests: matchedInterests
+            matchedInterests: matchedInterests,
+            image: image
           };
           
           recommendations.push(simplifiedStock);

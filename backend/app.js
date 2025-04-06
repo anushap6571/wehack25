@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const winston = require('winston');
-
+const imageRoutes = require('./src/routes/image.routes');
 // Load environment variables
 dotenv.config();
 
@@ -85,6 +85,8 @@ app.use((err, req, res, next) => {
   logger.error(err.stack);
   res.status(500).send('Something broke!');
 });
+
+app.use('/api/image', imageRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

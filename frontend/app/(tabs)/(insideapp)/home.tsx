@@ -5,6 +5,10 @@ import Colors from '@/constants/Colors';
 import React, {useState, useEffect} from 'react';
 import * as SecureStore from 'expo-secure-store';
 import { HomeScreenParams } from './types';
+import axios from 'axios';
+
+
+const GETDATA_URL = 'http://localhost:3000/api/stocks/get-user-interests';
 
 export default function Home() {
     const router = useRouter();
@@ -13,13 +17,6 @@ export default function Home() {
     const [error, setError] = useState(null);
     // Inside Home.tsx
     const { interestsQuery, price } = router.query as HomeScreenParams || {};  // Safe access with fallback to an empty object
-
-    useEffect(()=>{
-      if(!router.isReady) return;
-  
-      // codes using router.query
-  
-  }, [router.isReady]);
 
     async function fetchData(interests: string[], price: number, token: string) {
         setLoading(true);
@@ -57,21 +54,39 @@ export default function Home() {
           setLoading(false);
         }
     }
+
     useEffect(() => {
-      console.log("Router query:", router.query);
+        const getOutput = async () => {
+          try {
+            const token = await SecureStore.getItemAsync("authToken");
+            const outputClient = axios.create({
+              baseURL: GETDATA_URL,
+              headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${token}`
+              },
+          });
+
+          const response = await outputClient.get('');
+
+          console.log("RESPONSEEEE: ", response.data);
+          return response.data;
+
+          } catch (error) {
+
+          }
+        }
+
         const fetchEverything = async () => {
           try {
             const token = await SecureStore.getItemAsync("authToken");
-            if (!token) {
-              console.warn("No token found");
-              setError("Authentication required");
-              return;
-            }
-            // Try using more specific interest categories that might match your API's categorization
-            const interests = ["food"];
+
+            const interests = await getOutput();
             const amount = 200;
+            console.log("HELLOOO", interests);
 
             await fetchData(interests, amount, token);
+            console.log("");
           } catch (error) {
             console.error("Something went wrong fetching token or data:", error);
             setError("Failed to initialize");

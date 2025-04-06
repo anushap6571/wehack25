@@ -193,15 +193,13 @@ class AuthController {
   async getUserInterests(req, res) {
     const userId = req.user.userId; 
     const user = await User.findById(userId);
-    res.json(user.interests);
+    res.json({
+      interests: user.interests,
+      maxStockPrice: user.maxStockPrice
+    });
   }
 
-  async getUserMaxPrice(req, res) {
-    const userId = req.user.userId; 
-    const user = await User.findById(userId);
-    res.json(user.maxStockPrice);
-  }
-  
+
 }
 
 

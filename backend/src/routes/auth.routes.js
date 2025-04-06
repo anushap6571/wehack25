@@ -58,11 +58,7 @@ router.post('/login', validateLogin, authController.login);
 // Protected routes
 router.get('/profile', authMiddleware, authController.getProfile);
 router.post('/preferences', authMiddleware, validatePreferences, authController.updatePreferences);
-
-router.post('/save-user-interests', auth, authController.saveUserInterests.bind(authController));
-router.get('/get-user-interests', auth, authController.getUserInterests.bind(authController));
-
-router.get('/get-user-max-price', auth, authController.getUserMaxPrice.bind(authController));
-
+router.post('/saveUserInterests', auth, authController.saveUserInterests.bind(authController));
+router.get('/getUserInterests', auth, authController.getUserInterests.bind(authController));
 
 module.exports = router; 

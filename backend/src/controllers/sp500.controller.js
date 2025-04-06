@@ -7,15 +7,15 @@ const getTopSP500 = async (req, res) => {
       throw new Error('Finnhub API key is not configured');
     }
 
-    // List of top S&P 500 stocks (reduced to 5 to avoid rate limits)
-    const symbols = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA'];
+    // List of top S&P 500 stocks
+    const symbols = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'META', 'TSLA', 'BRK-B', 'UNH', 'JNJ'];
 
     // Get quotes for each stock with delay
     const stockDetails = await Promise.all(
       symbols.map(async (symbol, index) => {
         try {
-          // Add delay between requests (1 second per request)
-          await new Promise(resolve => setTimeout(resolve, index * 1000));
+          // Add delay between requests (1.5 seconds per request to avoid rate limits)
+          await new Promise(resolve => setTimeout(resolve, index * 1500));
 
           const quoteResponse = await axios.get('https://finnhub.io/api/v1/quote', {
             params: {

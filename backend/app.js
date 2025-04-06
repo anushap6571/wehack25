@@ -6,6 +6,7 @@ const winston = require('winston');
 //const likesController = require('./src/controllers/likes.controller');
 
 
+const imageRoutes = require('./src/routes/image.routes');
 // Load environment variables
 dotenv.config();
 
@@ -117,7 +118,9 @@ app.use((err, req, res, next) => {
   res.status(500).send('Something broke!');
 });
 
-// Start the server
+app.use('/api/image', imageRoutes);
+
+//const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   logger.info(`Server is running on http://localhost:${PORT}`);
 });

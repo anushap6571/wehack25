@@ -54,16 +54,16 @@ class StockScraperService {
     const dividendYield = this.parsePercentage($('td:contains("Dividend Yield")').next().text()) || 0;
     const beta = this.parseFloat($('td:contains("Beta")').next().text()) || 0;
 
-    return {
+        return {
       symbol,
       companyName,
       sector,
       industry,
       currentPrice,
       riskMetrics: {
-        volatility: 0,
+          volatility: 0,
         beta: beta,
-        sharpeRatio: 0,
+          sharpeRatio: 0,
         valueAtRisk: 0,
         maxDrawdown: 0
       },
@@ -109,17 +109,17 @@ class StockScraperService {
 
   // Optional stubbed methods
   async calculateRiskMetrics(symbol) {
-    return {
-      volatility: 0,
+      return {
+        volatility: 0,
       beta: 0,
-      sharpeRatio: 0,
+        sharpeRatio: 0,
       valueAtRisk: 0,
       maxDrawdown: 0
-    };
+      };
   }
-
+  
   async getTechnicalIndicators(symbol) {
-    return {
+        return {
       rsi: 0,
       macd: { value: 0, signal: 0, histogram: 0 },
       movingAverages: { sma50: 0, sma200: 0 }

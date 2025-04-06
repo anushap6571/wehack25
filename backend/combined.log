@@ -196,3 +196,1051 @@
 {"level":"info","message":"Server is running on http://localhost:3000"}
 {"level":"info","message":"Connected to MongoDB Atlas"}
 {"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect..."}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Retrying connection in 5 seconds..."}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.rz68uyh.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.rz68uyh.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.rz68uyh.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv"}
+{"level":"info","message":"Connected to MongoDB Atlas"}
+{"level":"info","message":"Scheduled jobs initialized successfully"}

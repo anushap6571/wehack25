@@ -11,12 +11,14 @@ router.post('/', async (req, res) => {
     try {
         const { message } = req.body;
         const userId = req.user.userId;
+        console.log("userId",userId);
 
         if (!message) {
             return res.status(400).json({ error: 'Message is required' });
         }
 
         const response = await chatbot.getResponse(message, userId);
+        console.log("response",response);
         res.json(response);
     } catch (error) {
         console.error('Chat error:', error);

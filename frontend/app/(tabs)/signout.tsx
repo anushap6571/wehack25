@@ -53,7 +53,7 @@ export default function SignOut() {
 
             <Pressable
             onPress={() => {
-                router.replace('/(tabs)');
+                router.replace('/');
             }}
             style={{marginTop: 40, backgroundColor: Colors.light.darkGreen, height: 55, width: 324, paddingHorizontal: 20, borderRadius: 100, justifyContent: 'center', alignItems: 'center'}}>
                 <Text style={{color: 'white', fontWeight: '600'}}>Sign Out</Text>

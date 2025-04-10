@@ -91,7 +91,7 @@ export default function SignUp() {
             console.log("Token saved to SecureStore");
             
             setIsLoading(false);
-            router.push('/input');
+            router.push('/(tabs)/(insideapp)/home');
             
         } catch (error) {
             setIsLoading(false);

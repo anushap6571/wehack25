@@ -1,22 +1,24 @@
 const express = require('express');
 const router = express.Router();
 const chatbot = require('../controllers/chatbot');
-const authMiddleware = require('../middleware/auth.middleware');
+const auth = require('../middleware/auth');
 
 // Apply auth middleware to all routes
-router.use(authMiddleware);
+router.use(auth);
 
 // Send a message and get response
 router.post('/', async (req, res) => {
     try {
         const { message } = req.body;
         const userId = req.user.userId;
+        console.log(userId);
 
         if (!message) {
             return res.status(400).json({ error: 'Message is required' });
         }
 
         const response = await chatbot.getResponse(message, userId);
+        console.log(response);
         res.json(response);
     } catch (error) {
         console.error('Chat error:', error);

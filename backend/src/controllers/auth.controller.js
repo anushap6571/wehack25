@@ -61,7 +61,41 @@ class AuthController {
       });
     }
   }
-
+  async saveUserInterests(req, res) {
+    const { interests, maxPrice, minPrice } = req.body;
+    const userId = req.user.userId;
+    const user = await User.findById(userId);
+    try {
+      if (user) {
+          user.interests = interests;
+          user.maxStockPrice = maxPrice;
+          await user.save();
+      }
+    } catch (userError) {
+      console.error('Error saving user interests:', userError);
+    }
+    res.json({ success: true });
+  }
+  
+  async getUserInterests(req, res) {
+    try {
+      const userId = req.user.userId;
+      const user = await User.findById(userId);
+      if (!user) {
+        return res.status(404).json({ error: 'User not found' });
+      }
+      res.json({
+        interests: user.interests || [],
+        price: user.maxStockPrice || 1000 // Default price if not set
+      });
+    } catch (error) {
+      console.error('Error in getUserInterests:', error);
+      res.status(500).json({
+        success: false,
+        error: 'Failed to get user interests'
+      });
+    }
+  }
   // Login user
   async login(req, res) {
     try {
@@ -114,7 +148,6 @@ class AuthController {
   // Get current user profile
   async getProfile(req, res) {
     try {
-
       const user = await User.findById(req.user.userId).select('-password');
       
       if (!user) {
@@ -134,24 +167,23 @@ class AuthController {
     }
   }
 
-  // Update user preferences
+  // Update user interests and risk tolerance
   async updatePreferences(req, res) {
     try {
-      const errors = validationResult(req);
-      if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
-      }
-
-      const { interests, maxPrice } = req.body;
+      const { interests, riskTolerance } = req.body;
       
       const user = await User.findById(req.user.userId);
       if (!user) {
         return res.status(404).json({ error: 'User not found' });
       }
 
-      // Update user preferences
-      user.interests = interests;
-      user.maxStockPrice = maxPrice;
+      if (interests) {
+        user.interests = interests;
+      }
+      
+      if (riskTolerance !== undefined) {
+        user.riskTolerance = riskTolerance;
+      }
 
       await user.save();
 
@@ -162,7 +194,7 @@ class AuthController {
           username: user.username,
           email: user.email,
           interests: user.interests,
-          maxStockPrice: user.maxStockPrice
+          riskTolerance: user.riskTolerance
         }
       });
     } catch (error) {
@@ -173,35 +205,6 @@ class AuthController {
       });
     }
   }
-
-  async saveUserInterests(req, res) {
-    const { interests, maxPrice, minPrice } = req.body;
-    const userId = req.user.userId; 
-    const user = await User.findById(userId);
-    try {
-      if (user) {
-          user.interests = interests;
-          user.maxStockPrice = maxPrice;
-          await user.save();
-      }
-    } catch (userError) {
-      console.error('Error saving user interests:', userError);
-    }
-    res.json({ success: true });
-  }
-
-  async getUserInterests(req, res) {
-    const userId = req.user.userId; 
-    const user = await User.findById(userId);
-    res.json({
-      interests: user.interests,
-      maxStockPrice: user.maxStockPrice
-    });
-  }
-
-
 }
-
-
 
 module.exports = new AuthController(); 

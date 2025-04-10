@@ -2,12 +2,8 @@ import { StyleSheet, SafeAreaView, ScrollView, Image, Pressable, TextInput } fro
 import { Text, View } from '@/components/Themed';
 import { useRouter } from 'expo-router'; 
 import Colors from '@/constants/Colors';
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import { HomeScreenParams } from '@/constants/types/types.ts';
-import axios from 'axios';
-import * as SecureStore from 'expo-secure-store';
-
-const INPUT_URL = 'http://localhost:3000/api/auth/save-user-interests';
 
 export default function Input() {
     const router = useRouter();
@@ -21,23 +17,10 @@ export default function Input() {
     const [priceFilled, setPriceFilled] = useState(false);
 
     const [interests, setInterests] = useState([]);  // Use state to keep track of interests
-    const [errorMessage, setErrorMessage] = useState('');
 
     const handleNumber = (money : string) => {
         setPriceFilled(true);
         setNumber(money);
-    }
-
-    useEffect(() => {
-        reset();
-    }, [])
-
-    const reset = () => {
-        setFood(false);
-        setClothes(false);
-        setSports(false);
-        setTech(false);
-        setTravel(false);
     }
 
     const handlePressed = (category : string) => {
@@ -70,35 +53,6 @@ export default function Input() {
         });
     }
 
-    const handleInput = async () => {
-        try {
-            const token = await SecureStore.getItemAsync("authToken");
-
-            const inputClient = axios.create({
-                baseURL: INPUT_URL,
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
-                },
-            });
-
-            const response = await inputClient.post('', {
-                interests,
-                price,
-            });
-
-        } catch (error) {
-            setIsLoading(false);
-            console.log("Error during login:", error);
-            
-            if (error.response && error.response.data) {
-                setErrorMessage(error.response.data.message);
-            } else {
-                setErrorMessage('Incorrect email or password');
-            }
-        }
-    }
-
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.backContainer}>
@@ -112,31 +66,31 @@ export default function Input() {
 
             <Text style={{marginTop: 50, color: Colors.light.darkGreen, fontSize: 24, fontWeight: 'bold'}}>what interests you?</Text>
             <Pressable onPress={() => {clickedInterest("food")}} style={({pressed}) => [
-                styles.categoryButton, {backgroundColor: food ? Colors.light.darkGreen : Colors.light.lightGray}, {color: food ? 'white' : Colors.light.darkGray}
+                styles.categoryButton, {backgroundColor: food ? Colors.light.lightGreen : Colors.light.lightGray}, {color: food ? 'white' : Colors.light.darkGray}
             ]}>
                 <Text>food</Text>
             </Pressable>
 
             <Pressable onPress={() => {clickedInterest("clothes")}} style={({pressed}) => [
-                styles.categoryButton, {backgroundColor: clothes ? Colors.light.darkGreen : Colors.light.lightGray} 
+                styles.categoryButton, {backgroundColor: clothes ? Colors.light.lightGreen : Colors.light.lightGray} 
             ]}>
                 <Text>clothes</Text>
             </Pressable>
 
             <Pressable onPress={() => {clickedInterest("sports")}} style={({pressed}) => [
-                styles.categoryButton, {backgroundColor: sports ? Colors.light.darkGreen : Colors.light.lightGray} 
+                styles.categoryButton, {backgroundColor: sports ? Colors.light.lightGreen : Colors.light.lightGray} 
             ]}>
                 <Text>sports</Text>
             </Pressable>
 
             <Pressable onPress={() => {clickedInterest("technology")}} style={({pressed}) => [
-                styles.categoryButton, {backgroundColor: technology ? Colors.light.darkGreen : Colors.light.lightGray} 
+                styles.categoryButton, {backgroundColor: technology ? Colors.light.lightGreen : Colors.light.lightGray} 
             ]}>
                 <Text>technology</Text>
             </Pressable>
 
             <Pressable onPress={() => {clickedInterest("travel")}} style={({pressed}) => [
-                styles.categoryButton, {backgroundColor: travel ? Colors.light.darkGreen : Colors.light.lightGray} 
+                styles.categoryButton, {backgroundColor: travel ? Colors.light.lightGreen : Colors.light.lightGray} 
             ]}>
                 <Text>travel</Text>
             </Pressable>
@@ -152,7 +106,6 @@ export default function Input() {
             <Pressable
             onPress={() => {
               if(interests.length != 0 && priceFilled) {
-                handleInput();
                 const interestsQuery = interests.join(',');
                 console.log(interestsQuery);
                 router.push(`/home?interests=${interestsQuery}&price=${parseInt(price)}`);

@@ -12,7 +12,7 @@ export default function Explore() {
     const [dislikedStatus, setDislikedStatus] = useState(false);
     const [stockData, setStockData] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState(null)
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
